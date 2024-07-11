@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("../fonts/Shabnam.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Shabnam Bold";
+  src: url("../fonts/Shabnam-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Shabnam Medium";
+  src: url("../fonts/Shabnam-Bold.ttf") format("truetype");
+}
