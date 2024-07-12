@@ -43,45 +43,48 @@
 <body>
   <header class="header">
 
-    <div class="header__logo">
-      <img src="images/logo.png" alt="Goli Logo">
+    <!-- start of header right section -->
+    <div class="header__right">
+      <a href="javascript:void(0)" class="header__logo">
+        <img src="images/logo.png" alt="Goli Logo">
+      </a>
+      <!-- start of header menu -->
+      <ul class="header__menu">
+        <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">صفحه اصلی</a></li>
+        <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">فروشگاه</a></li>
+        <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">بلاگ</a></li>
+        <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">درباه ما</a></li>
+        <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">تماس با ما</a></li>
+      </ul>
+      <!-- end of header menu -->
     </div>
+    <!-- start of header right section -->
 
-    <!-- start of header menu -->
-    <ul class="header__menu">
-      <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">صفحه اصلی</a></li>
-      <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">فروشگاه</a></li>
-      <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">بلاگ</a></li>
-      <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">درباه ما</a></li>
-      <li class="header__menu-item"><a href="javascript:void(0)" class="header__menu-link">تماس با ما</a></li>
-    </ul>
-    <!-- end of header menu -->
-
+    <!-- start of header left section -->
     <div class="header__left">
 
-      <div class="header__buttons">
-        <svg class="header__btn">
+      <div class="header__icons">
+        <svg class="header__icon">
           <use href="#shopping-bag"></use>
         </svg>
-        <svg class="header__btn change-theme-btn change-theme-btn--moon">
+        <svg class="header__icon change-theme-btn change-theme-btn--moon">
           <use href="#moon"></use>
         </svg>
-        <svg class="header__btn change-theme-btn change-theme-btn--sun hidden">
+        <svg class="header__icon change-theme-btn change-theme-btn--sun hidden">
           <use href="#sun"></use>
         </svg>
       </div>
-
       <!-- start of header login btn -->
       <div class="header__login-btn">
         <span>ورود | ثبت نام</span>
-        <svg class="header__btn">
+        <svg class="header__login-icon">
           <use href="#arrow-left-end-on-rectangle"></use>
         </svg>
       </div>
       <!-- end of header login btn -->
 
     </div>
-
+    <!-- end of header left section -->
   </header>
 
 </body>
