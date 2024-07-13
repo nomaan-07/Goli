@@ -140,7 +140,7 @@ a {
   z-index: 300;
 }
 .header__search-box--1200 input::placeholder {
-  color: #000;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .header__search-input {

@@ -107,7 +107,8 @@
   .container {
     width: 54rem;
   }
-  .header {
+  .header,
+  .header__search-box--1200 {
     display: none;
   }
 }
