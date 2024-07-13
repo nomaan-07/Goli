@@ -3,8 +3,8 @@
   --secondary-text-color: #fff;
   --bg-color: #f3f5f0;
   --transition: all 150ms ease 50ms;
-  --primary-color: #38E683;
-  --secondary-color: #F2E800;
+  --primary-color: #38e683;
+  --secondary-color: #f2e800;
 }
 
 html {
@@ -50,6 +50,13 @@ a {
   padding-right: 1.6rem;
 }
 
+/* 
+
+=============
+-- Header --
+=============
+
+*/
 .header {
   position: fixed;
   top: 40px;
@@ -144,3 +151,49 @@ a {
 .header__login-btn:hover {
   color: var(--secondary-color);
 }
+
+/* 
+-------------
+End of Header
+-------------
+*/
+
+
+/* 
+
+===========
+-- Main --
+===========
+
+*/
+.main {
+}
+
+/* 
+
+==================
+-- Hero Section --
+==================
+
+*/
+
+.hero {
+  background-image: url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+}
+
+/* 
+-------------------
+End of Hero Section
+-------------------
+*/
+
+
+/* 
+------------
+End of Main
+------------
+*/
