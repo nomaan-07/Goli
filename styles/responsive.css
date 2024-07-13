@@ -83,6 +83,10 @@
   .header__search-icon--1200 {
     margin-left: 18px;
   }
+  .header__search-box--1200 {
+    top: 98px;
+    left: 97px;
+  }
   .header__icons {
     height: 30px;
     gap: 18px;
@@ -96,7 +100,7 @@
     width: 28px;
     height: 28px;
   }
-    /* end of header */
+  /* end of header */
 }
 
 @media (max-width: 768px) {

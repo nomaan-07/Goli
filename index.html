@@ -47,6 +47,8 @@
 </svg>
 
 <body>
+
+  <div class="overlay hidden"></div>
   <!-- App Header -->
   <header class="header">
 
@@ -108,7 +110,12 @@
     </div>
     <!-- end of header left section -->
   </header>
-
+  <div class="header__search-box--1200 hidden">
+    <input type="text" class="header__search-input" aria-autocomplete="list" placeholder="جستجوی گیاه">
+    <svg class="header__search-icon">
+      <use href="#magnifying-glass"></use>
+    </svg>
+  </div>
   <!-- Main -->
   <main>
     <!-- Start of Hero Section -->
@@ -121,6 +128,7 @@
   </main>
 
 
+  <script src="js/app.js"></script>
 </body>
 
 </html>
