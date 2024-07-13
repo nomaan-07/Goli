@@ -1,12 +1,12 @@
 @media (min-width: 1401px) {
   .container {
-    width: 137rem;
+    width: 1370px;
   }
 }
 
 @media (max-width: 1400px) {
   .container {
-    width: 114rem;
+    width: 1140px;
   }
 
   /* header */
@@ -32,7 +32,7 @@
 
 @media (max-width: 1200px) {
   .container {
-    width: 96rem;
+    width: 960px;
   }
   /* header */
   .header {
@@ -68,7 +68,7 @@
 
 @media (max-width: 992px) {
   .container {
-    width: 72rem;
+    width: 720px;
   }
   /* start of header */
   .header {
@@ -105,7 +105,7 @@
 
 @media (max-width: 768px) {
   .container {
-    width: 54rem;
+    width: 540px;
   }
   .header,
   .header__search-box--1200 {
